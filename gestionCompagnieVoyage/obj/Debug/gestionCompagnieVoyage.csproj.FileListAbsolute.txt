@@ -10,7 +10,6 @@ C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\bin\Debug
 C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\bin\Debug\System.Security.Permissions.xml
 C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\bin\Debug\System.Security.Principal.Windows.xml
 C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.csprojAssemblyReference.cache
-C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Form1.resources
 C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Liste_CH.resources
 C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Properties.Resources.resources
 C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.csproj.GenerateResource.cache
@@ -21,3 +20,5 @@ C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug
 C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Ajout_chauffeur.resources
 C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Suppression_Chauffeur.resources
 C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Modification_chauffeur.resources
+C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Home.resources
+C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Vehicules_liste.resources

@@ -12,7 +12,7 @@ using System.Data.SqlClient;
 
 namespace gestionCompagnieVoyage
 {
-    public partial class Form1 : Form
+    public partial class Home : Form
     {
 
 
@@ -20,7 +20,8 @@ namespace gestionCompagnieVoyage
         Ajout_chauffeur ajForm = new Ajout_chauffeur();
         Suppression_Chauffeur spCHForm = new Suppression_Chauffeur();
         Modification_chauffeur mdCHForm = new Modification_chauffeur();
-        public Form1()
+        Vehicules_liste lsVcForm = new Vehicules_liste();
+        public Home()
         {
             InitializeComponent();
         }
@@ -49,6 +50,11 @@ namespace gestionCompagnieVoyage
         private void modificationToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Changer_Form(mdCHForm);
+        }
+
+        private void listeToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Changer_Form(lsVcForm);
         }
     }
 }

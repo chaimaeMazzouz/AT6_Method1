@@ -1,6 +1,6 @@
 ﻿namespace gestionCompagnieVoyage
 {
-    partial class Form1
+    partial class Home
     {
         /// <summary>
         /// Required designer variable.
@@ -86,28 +86,28 @@
             // listeToolStripMenuItem
             // 
             this.listeToolStripMenuItem.Name = "listeToolStripMenuItem";
-            this.listeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.listeToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.listeToolStripMenuItem.Text = "Liste";
             this.listeToolStripMenuItem.Click += new System.EventHandler(this.listeToolStripMenuItem_Click);
             // 
             // ajoutToolStripMenuItem
             // 
             this.ajoutToolStripMenuItem.Name = "ajoutToolStripMenuItem";
-            this.ajoutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ajoutToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.ajoutToolStripMenuItem.Text = "Ajout";
             this.ajoutToolStripMenuItem.Click += new System.EventHandler(this.ajoutToolStripMenuItem_Click);
             // 
             // suppressionToolStripMenuItem
             // 
             this.suppressionToolStripMenuItem.Name = "suppressionToolStripMenuItem";
-            this.suppressionToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.suppressionToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.suppressionToolStripMenuItem.Text = "Suppression";
             this.suppressionToolStripMenuItem.Click += new System.EventHandler(this.suppressionToolStripMenuItem_Click);
             // 
             // modificationToolStripMenuItem
             // 
             this.modificationToolStripMenuItem.Name = "modificationToolStripMenuItem";
-            this.modificationToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.modificationToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.modificationToolStripMenuItem.Text = "Modification";
             this.modificationToolStripMenuItem.Click += new System.EventHandler(this.modificationToolStripMenuItem_Click);
             // 
@@ -125,25 +125,26 @@
             // listeToolStripMenuItem1
             // 
             this.listeToolStripMenuItem1.Name = "listeToolStripMenuItem1";
-            this.listeToolStripMenuItem1.Size = new System.Drawing.Size(142, 22);
+            this.listeToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.listeToolStripMenuItem1.Text = "Liste";
+            this.listeToolStripMenuItem1.Click += new System.EventHandler(this.listeToolStripMenuItem1_Click);
             // 
             // ajoutToolStripMenuItem1
             // 
             this.ajoutToolStripMenuItem1.Name = "ajoutToolStripMenuItem1";
-            this.ajoutToolStripMenuItem1.Size = new System.Drawing.Size(142, 22);
+            this.ajoutToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.ajoutToolStripMenuItem1.Text = "Ajout";
             // 
             // suppressionToolStripMenuItem1
             // 
             this.suppressionToolStripMenuItem1.Name = "suppressionToolStripMenuItem1";
-            this.suppressionToolStripMenuItem1.Size = new System.Drawing.Size(142, 22);
+            this.suppressionToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.suppressionToolStripMenuItem1.Text = "Suppression";
             // 
             // modificationToolStripMenuItem1
             // 
             this.modificationToolStripMenuItem1.Name = "modificationToolStripMenuItem1";
-            this.modificationToolStripMenuItem1.Size = new System.Drawing.Size(142, 22);
+            this.modificationToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.modificationToolStripMenuItem1.Text = "Modification";
             // 
             // voyagesToolStripMenuItem
@@ -258,7 +259,7 @@
             this.recetteVoyageToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
             this.recetteVoyageToolStripMenuItem.Text = "Recette/Voyage";
             // 
-            // Form1
+            // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -266,7 +267,7 @@
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Form1";
+            this.Name = "Home";
             this.Text = "Compagnie de Voyage -Mode connecté";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

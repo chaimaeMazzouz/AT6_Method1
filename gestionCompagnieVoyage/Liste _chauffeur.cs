@@ -47,7 +47,10 @@ namespace gestionCompagnieVoyage
 
                 MessageBox.Show(ex.Message);
             }
-
+            finally
+            {
+                g1.voyage_connexion.Close();
+            }
         }
     }
 }

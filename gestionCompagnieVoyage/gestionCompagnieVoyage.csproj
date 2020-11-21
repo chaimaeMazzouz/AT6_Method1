@@ -72,17 +72,17 @@
       <DependentUpon>Ajout_chauffeur.cs</DependentUpon>
     </Compile>
     <Compile Include="classConnexion.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
     </Compile>
-    <Compile Include="Liste CH.cs">
+    <Compile Include="Liste _chauffeur.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Liste CH.Designer.cs">
-      <DependentUpon>Liste CH.cs</DependentUpon>
+    <Compile Include="Liste _chauffeur.Designer.cs">
+      <DependentUpon>Liste _chauffeur.cs</DependentUpon>
     </Compile>
     <Compile Include="Modification_chauffeur.cs">
       <SubType>Form</SubType>
@@ -98,14 +98,26 @@
     <Compile Include="Suppression_Chauffeur.Designer.cs">
       <DependentUpon>Suppression_Chauffeur.cs</DependentUpon>
     </Compile>
+    <Compile Include="Vehicules_Ajout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vehicules_Ajout.Designer.cs">
+      <DependentUpon>Vehicules_Ajout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vehicules_liste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vehicules_liste.Designer.cs">
+      <DependentUpon>Vehicules_liste.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Ajout_chauffeur.resx">
       <DependentUpon>Ajout_chauffeur.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Liste CH.resx">
-      <DependentUpon>Liste CH.cs</DependentUpon>
+    <EmbeddedResource Include="Liste _chauffeur.resx">
+      <DependentUpon>Liste _chauffeur.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Modification_chauffeur.resx">
       <DependentUpon>Modification_chauffeur.cs</DependentUpon>
@@ -121,6 +133,12 @@
     </Compile>
     <EmbeddedResource Include="Suppression_Chauffeur.resx">
       <DependentUpon>Suppression_Chauffeur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vehicules_Ajout.resx">
+      <DependentUpon>Vehicules_Ajout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vehicules_liste.resx">
+      <DependentUpon>Vehicules_liste.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
