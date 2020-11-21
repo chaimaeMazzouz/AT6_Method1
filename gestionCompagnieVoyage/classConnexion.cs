@@ -8,6 +8,9 @@ using System.Data.SqlClient;
 namespace gestionCompagnieVoyage
 {
     class classConnexion
-    { }
+    {
+        public SqlConnection
+            voyage_connexion = new SqlConnection(@"data source = .\SQLEXPRESS;database=CompagnieVoyage;Integrated Security=True");
+    }
 }
 

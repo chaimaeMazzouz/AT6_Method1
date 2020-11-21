@@ -88,24 +88,28 @@
             this.listeToolStripMenuItem.Name = "listeToolStripMenuItem";
             this.listeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.listeToolStripMenuItem.Text = "Liste";
+            this.listeToolStripMenuItem.Click += new System.EventHandler(this.listeToolStripMenuItem_Click);
             // 
             // ajoutToolStripMenuItem
             // 
             this.ajoutToolStripMenuItem.Name = "ajoutToolStripMenuItem";
             this.ajoutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.ajoutToolStripMenuItem.Text = "Ajout";
+            this.ajoutToolStripMenuItem.Click += new System.EventHandler(this.ajoutToolStripMenuItem_Click);
             // 
             // suppressionToolStripMenuItem
             // 
             this.suppressionToolStripMenuItem.Name = "suppressionToolStripMenuItem";
             this.suppressionToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.suppressionToolStripMenuItem.Text = "Suppression";
+            this.suppressionToolStripMenuItem.Click += new System.EventHandler(this.suppressionToolStripMenuItem_Click);
             // 
             // modificationToolStripMenuItem
             // 
             this.modificationToolStripMenuItem.Name = "modificationToolStripMenuItem";
             this.modificationToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.modificationToolStripMenuItem.Text = "Modification";
+            this.modificationToolStripMenuItem.Click += new System.EventHandler(this.modificationToolStripMenuItem_Click);
             // 
             // véhiculesToolStripMenuItem
             // 
@@ -121,25 +125,25 @@
             // listeToolStripMenuItem1
             // 
             this.listeToolStripMenuItem1.Name = "listeToolStripMenuItem1";
-            this.listeToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.listeToolStripMenuItem1.Size = new System.Drawing.Size(142, 22);
             this.listeToolStripMenuItem1.Text = "Liste";
             // 
             // ajoutToolStripMenuItem1
             // 
             this.ajoutToolStripMenuItem1.Name = "ajoutToolStripMenuItem1";
-            this.ajoutToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.ajoutToolStripMenuItem1.Size = new System.Drawing.Size(142, 22);
             this.ajoutToolStripMenuItem1.Text = "Ajout";
             // 
             // suppressionToolStripMenuItem1
             // 
             this.suppressionToolStripMenuItem1.Name = "suppressionToolStripMenuItem1";
-            this.suppressionToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.suppressionToolStripMenuItem1.Size = new System.Drawing.Size(142, 22);
             this.suppressionToolStripMenuItem1.Text = "Suppression";
             // 
             // modificationToolStripMenuItem1
             // 
             this.modificationToolStripMenuItem1.Name = "modificationToolStripMenuItem1";
-            this.modificationToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.modificationToolStripMenuItem1.Size = new System.Drawing.Size(142, 22);
             this.modificationToolStripMenuItem1.Text = "Modification";
             // 
             // voyagesToolStripMenuItem
@@ -156,25 +160,25 @@
             // listeToolStripMenuItem2
             // 
             this.listeToolStripMenuItem2.Name = "listeToolStripMenuItem2";
-            this.listeToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.listeToolStripMenuItem2.Size = new System.Drawing.Size(142, 22);
             this.listeToolStripMenuItem2.Text = "Liste";
             // 
             // ajoutToolStripMenuItem2
             // 
             this.ajoutToolStripMenuItem2.Name = "ajoutToolStripMenuItem2";
-            this.ajoutToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.ajoutToolStripMenuItem2.Size = new System.Drawing.Size(142, 22);
             this.ajoutToolStripMenuItem2.Text = "Ajout";
             // 
             // suppressionToolStripMenuItem2
             // 
             this.suppressionToolStripMenuItem2.Name = "suppressionToolStripMenuItem2";
-            this.suppressionToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.suppressionToolStripMenuItem2.Size = new System.Drawing.Size(142, 22);
             this.suppressionToolStripMenuItem2.Text = "Suppression";
             // 
             // modificationToolStripMenuItem2
             // 
             this.modificationToolStripMenuItem2.Name = "modificationToolStripMenuItem2";
-            this.modificationToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.modificationToolStripMenuItem2.Size = new System.Drawing.Size(142, 22);
             this.modificationToolStripMenuItem2.Text = "Modification";
             // 
             // billetsToolStripMenuItem
@@ -191,25 +195,25 @@
             // listeToolStripMenuItem3
             // 
             this.listeToolStripMenuItem3.Name = "listeToolStripMenuItem3";
-            this.listeToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
+            this.listeToolStripMenuItem3.Size = new System.Drawing.Size(142, 22);
             this.listeToolStripMenuItem3.Text = "Liste";
             // 
             // ajoutToolStripMenuItem3
             // 
             this.ajoutToolStripMenuItem3.Name = "ajoutToolStripMenuItem3";
-            this.ajoutToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
+            this.ajoutToolStripMenuItem3.Size = new System.Drawing.Size(142, 22);
             this.ajoutToolStripMenuItem3.Text = "Ajout";
             // 
             // suppressionToolStripMenuItem3
             // 
             this.suppressionToolStripMenuItem3.Name = "suppressionToolStripMenuItem3";
-            this.suppressionToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
+            this.suppressionToolStripMenuItem3.Size = new System.Drawing.Size(142, 22);
             this.suppressionToolStripMenuItem3.Text = "Suppression";
             // 
             // modificationToolStripMenuItem3
             // 
             this.modificationToolStripMenuItem3.Name = "modificationToolStripMenuItem3";
-            this.modificationToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
+            this.modificationToolStripMenuItem3.Size = new System.Drawing.Size(142, 22);
             this.modificationToolStripMenuItem3.Text = "Modification";
             // 
             // statistiquesToolStripMenuItem
@@ -227,31 +231,31 @@
             // nombreDeLignesToolStripMenuItem
             // 
             this.nombreDeLignesToolStripMenuItem.Name = "nombreDeLignesToolStripMenuItem";
-            this.nombreDeLignesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.nombreDeLignesToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
             this.nombreDeLignesToolStripMenuItem.Text = "Nombre de lignes";
             // 
             // billetsToolStripMenuItem1
             // 
             this.billetsToolStripMenuItem1.Name = "billetsToolStripMenuItem1";
-            this.billetsToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.billetsToolStripMenuItem1.Size = new System.Drawing.Size(175, 22);
             this.billetsToolStripMenuItem1.Text = "Billets/Voyage";
             // 
             // voyagesChauffeurToolStripMenuItem
             // 
             this.voyagesChauffeurToolStripMenuItem.Name = "voyagesChauffeurToolStripMenuItem";
-            this.voyagesChauffeurToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.voyagesChauffeurToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
             this.voyagesChauffeurToolStripMenuItem.Text = "Voyages/Véhicule";
             // 
             // voyagesChauffeurToolStripMenuItem1
             // 
             this.voyagesChauffeurToolStripMenuItem1.Name = "voyagesChauffeurToolStripMenuItem1";
-            this.voyagesChauffeurToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.voyagesChauffeurToolStripMenuItem1.Size = new System.Drawing.Size(175, 22);
             this.voyagesChauffeurToolStripMenuItem1.Text = "Voyages/Chauffeur";
             // 
             // recetteVoyageToolStripMenuItem
             // 
             this.recetteVoyageToolStripMenuItem.Name = "recetteVoyageToolStripMenuItem";
-            this.recetteVoyageToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.recetteVoyageToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
             this.recetteVoyageToolStripMenuItem.Text = "Recette/Voyage";
             // 
             // Form1
@@ -260,6 +264,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.menuStrip1);
+            this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Compagnie de Voyage -Mode connecté";

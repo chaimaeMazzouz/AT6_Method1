@@ -65,6 +65,12 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ajout_chauffeur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ajout_chauffeur.Designer.cs">
+      <DependentUpon>Ajout_chauffeur.cs</DependentUpon>
+    </Compile>
     <Compile Include="classConnexion.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -78,13 +84,31 @@
     <Compile Include="Liste CH.Designer.cs">
       <DependentUpon>Liste CH.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modification_chauffeur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modification_chauffeur.Designer.cs">
+      <DependentUpon>Modification_chauffeur.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Suppression_Chauffeur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Suppression_Chauffeur.Designer.cs">
+      <DependentUpon>Suppression_Chauffeur.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Ajout_chauffeur.resx">
+      <DependentUpon>Ajout_chauffeur.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Liste CH.resx">
       <DependentUpon>Liste CH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modification_chauffeur.resx">
+      <DependentUpon>Modification_chauffeur.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -95,6 +119,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Suppression_Chauffeur.resx">
+      <DependentUpon>Suppression_Chauffeur.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
