@@ -127,7 +127,7 @@ namespace gestionCompagnieVoyage
                     voyage_cmd.Parameters[0].Value = dateTimePicker1.Text;
                     voyage_cmd.Parameters[1].Value = textVille_Depart.Text;
                     voyage_cmd.Parameters[2].Value = textVille_Arrive.Text;
-                    voyage_cmd.Parameters[3].Value = Convert.ToDecimal(textDuree.Text);
+                    voyage_cmd.Parameters[3].Value = textDuree.Text;
                     voyage_cmd.Parameters[4].Value = textNbre_Voyageurs.Text;
                     voyage_cmd.Parameters[5].Value = textPlace_libre.Text;
                     voyage_cmd.Parameters[6].Value = textTarif.Text;
