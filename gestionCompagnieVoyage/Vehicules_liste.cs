@@ -17,27 +17,36 @@ namespace gestionCompagnieVoyage
         {
             InitializeComponent();
         }
-        classConnexion g1 = new classConnexion();
+        classConnexion g2 = new classConnexion();
         SqlCommand Vehicule_cmd = new SqlCommand();
-        SqlDataReader Vehicule_drd;
+       /* SqlDataReader Vehicule_drd;*/
 
         
 
         private void btnAfficher_vehicules_Click(object sender, EventArgs e)
         {
-            Vehicule_cmd.Connection = g1.voyage_connexion;
+            Vehicule_cmd.Connection = g2.voyage_connexion;
             Vehicule_cmd.CommandText = "SELECT * FROM Vehicule";
             try
             {
-                dataGridView1.Rows.Clear();
-                g1.voyage_connexion.Open();
-                Vehicule_drd = Vehicule_cmd.ExecuteReader();
-                while (Vehicule_drd.Read())
+                dGV_Vehicule.Rows.Clear();
+                g2.voyage_connexion.Open();
+                /* Vehicule_drd = Vehicule_cmd.ExecuteReader();
+                 while (Vehicule_drd.Read())
+                 {
+                     dGV_Vehicule.Rows.Add(Vehicule_drd.GetString(0),
+                         Vehicule_drd.GetString(1), Vehicule_drd.GetString(2),
+                         Vehicule_drd.GetSqlDateTime(3)
+                 );
+                 }*/
+                using (SqlDataReader Vehicule_drd = Vehicule_cmd.ExecuteReader())
                 {
-                    dataGridView1.Rows.Add(Vehicule_drd.GetString(0),
-                        Vehicule_drd.GetString(1), Vehicule_drd.GetString(2),
-                        Vehicule_drd.GetSqlDateTime(3)
-                );
+                    while (Vehicule_drd.Read())
+                    {
+                        dGV_Vehicule.Rows.Add(Vehicule_drd.GetString(0),
+                          Vehicule_drd.GetString(1), Vehicule_drd.GetString(2),
+                          Vehicule_drd.GetSqlDateTime(3));
+                    }
                 }
 
 
@@ -49,7 +58,7 @@ namespace gestionCompagnieVoyage
             }
             finally
             {
-                g1.voyage_connexion.Close();
+                g2.voyage_connexion.Close();
             }
 
         }

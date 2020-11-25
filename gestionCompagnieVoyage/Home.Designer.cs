@@ -134,18 +134,21 @@
             this.ajoutToolStripMenuItem1.Name = "ajoutToolStripMenuItem1";
             this.ajoutToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.ajoutToolStripMenuItem1.Text = "Ajout";
+            this.ajoutToolStripMenuItem1.Click += new System.EventHandler(this.ajoutToolStripMenuItem1_Click);
             // 
             // suppressionToolStripMenuItem1
             // 
             this.suppressionToolStripMenuItem1.Name = "suppressionToolStripMenuItem1";
             this.suppressionToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.suppressionToolStripMenuItem1.Text = "Suppression";
+            this.suppressionToolStripMenuItem1.Click += new System.EventHandler(this.suppressionToolStripMenuItem1_Click);
             // 
             // modificationToolStripMenuItem1
             // 
             this.modificationToolStripMenuItem1.Name = "modificationToolStripMenuItem1";
             this.modificationToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.modificationToolStripMenuItem1.Text = "Modification";
+            this.modificationToolStripMenuItem1.Click += new System.EventHandler(this.modificationToolStripMenuItem1_Click);
             // 
             // voyagesToolStripMenuItem
             // 
@@ -161,14 +164,16 @@
             // listeToolStripMenuItem2
             // 
             this.listeToolStripMenuItem2.Name = "listeToolStripMenuItem2";
-            this.listeToolStripMenuItem2.Size = new System.Drawing.Size(142, 22);
+            this.listeToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
             this.listeToolStripMenuItem2.Text = "Liste";
+            this.listeToolStripMenuItem2.Click += new System.EventHandler(this.listeToolStripMenuItem2_Click);
             // 
             // ajoutToolStripMenuItem2
             // 
             this.ajoutToolStripMenuItem2.Name = "ajoutToolStripMenuItem2";
-            this.ajoutToolStripMenuItem2.Size = new System.Drawing.Size(142, 22);
+            this.ajoutToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
             this.ajoutToolStripMenuItem2.Text = "Ajout";
+            this.ajoutToolStripMenuItem2.Click += new System.EventHandler(this.ajoutToolStripMenuItem2_Click);
             // 
             // suppressionToolStripMenuItem2
             // 

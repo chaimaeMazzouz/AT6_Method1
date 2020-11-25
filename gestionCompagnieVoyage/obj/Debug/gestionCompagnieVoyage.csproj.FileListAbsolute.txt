@@ -22,3 +22,9 @@ C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug
 C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Modification_chauffeur.resources
 C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Home.resources
 C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Vehicules_liste.resources
+C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Vehicules_Ajout.resources
+C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Vehicule_Ajout.resources
+C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Vehicule_modification.resources
+C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Vehicule_suppression.resources
+C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.voyage_list.resources
+C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.voyage_Ajout.resources

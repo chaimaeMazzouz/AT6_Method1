@@ -30,12 +30,12 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.btnAfficher_vehicules = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dGV_Vehicule = new System.Windows.Forms.DataGridView();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dGV_Vehicule)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -59,50 +59,50 @@
             this.btnAfficher_vehicules.UseVisualStyleBackColor = true;
             this.btnAfficher_vehicules.Click += new System.EventHandler(this.btnAfficher_vehicules_Click);
             // 
-            // dataGridView1
+            // dGV_Vehicule
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2,
-            this.Column3,
-            this.Column4});
-            this.dataGridView1.Location = new System.Drawing.Point(82, 110);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(444, 150);
-            this.dataGridView1.TabIndex = 7;
+            this.dGV_Vehicule.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dGV_Vehicule.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column5,
+            this.Column6,
+            this.Column7,
+            this.Column1});
+            this.dGV_Vehicule.Location = new System.Drawing.Point(76, 120);
+            this.dGV_Vehicule.Name = "dGV_Vehicule";
+            this.dGV_Vehicule.Size = new System.Drawing.Size(444, 150);
+            this.dGV_Vehicule.TabIndex = 8;
+            // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "Immatricule";
+            this.Column5.Name = "Column5";
+            // 
+            // Column6
+            // 
+            this.Column6.HeaderText = "Marque";
+            this.Column6.Name = "Column6";
+            // 
+            // Column7
+            // 
+            this.Column7.HeaderText = "Type Vehicule";
+            this.Column7.Name = "Column7";
             // 
             // Column1
             // 
-            this.Column1.HeaderText = "Immatricule";
+            this.Column1.HeaderText = "Date Mise Service";
             this.Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Marque";
-            this.Column2.Name = "Column2";
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Type Vehicule";
-            this.Column3.Name = "Column3";
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "Date Mise Service";
-            this.Column4.Name = "Column4";
             // 
             // Vehicules_liste
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(598, 383);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dGV_Vehicule);
             this.Controls.Add(this.btnAfficher_vehicules);
             this.Controls.Add(this.label1);
             this.Name = "Vehicules_liste";
             this.Text = "Vehicules_liste";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dGV_Vehicule)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -111,10 +111,10 @@
         #endregion
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnAfficher_vehicules;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dGV_Vehicule;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
     }
 }

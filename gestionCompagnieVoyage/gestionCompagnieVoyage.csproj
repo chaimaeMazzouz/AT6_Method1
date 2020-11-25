@@ -92,6 +92,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="remplirComboVoyage.cs" />
     <Compile Include="Suppression_Chauffeur.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,6 +110,36 @@
     </Compile>
     <Compile Include="Vehicules_liste.Designer.cs">
       <DependentUpon>Vehicules_liste.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vehicule_Ajout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vehicule_Ajout.Designer.cs">
+      <DependentUpon>Vehicule_Ajout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vehicule_modification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vehicule_modification.Designer.cs">
+      <DependentUpon>Vehicule_modification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vehicule_suppression.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vehicule_suppression.Designer.cs">
+      <DependentUpon>Vehicule_suppression.cs</DependentUpon>
+    </Compile>
+    <Compile Include="voyage_Ajout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="voyage_Ajout.Designer.cs">
+      <DependentUpon>voyage_Ajout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="voyage_list.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="voyage_list.Designer.cs">
+      <DependentUpon>voyage_list.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Ajout_chauffeur.resx">
       <DependentUpon>Ajout_chauffeur.cs</DependentUpon>
@@ -139,6 +170,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Vehicules_liste.resx">
       <DependentUpon>Vehicules_liste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vehicule_Ajout.resx">
+      <DependentUpon>Vehicule_Ajout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vehicule_modification.resx">
+      <DependentUpon>Vehicule_modification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vehicule_suppression.resx">
+      <DependentUpon>Vehicule_suppression.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="voyage_Ajout.resx">
+      <DependentUpon>voyage_Ajout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="voyage_list.resx">
+      <DependentUpon>voyage_list.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

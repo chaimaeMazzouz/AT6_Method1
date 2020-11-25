@@ -21,6 +21,11 @@ namespace gestionCompagnieVoyage
         Suppression_Chauffeur spCHForm = new Suppression_Chauffeur();
         Modification_chauffeur mdCHForm = new Modification_chauffeur();
         Vehicules_liste lsVcForm = new Vehicules_liste();
+        Vehicule_Ajout ajVhcForm = new Vehicule_Ajout();
+        Vehicule_modification modVhcForm = new Vehicule_modification();
+        Vehicule_suppression supVhForm = new Vehicule_suppression();
+        voyage_list lisVogForm = new voyage_list();
+        voyage_Ajout ajVogForm = new voyage_Ajout();
         public Home()
         {
             InitializeComponent();
@@ -55,6 +60,31 @@ namespace gestionCompagnieVoyage
         private void listeToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             Changer_Form(lsVcForm);
+        }
+
+        private void ajoutToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Changer_Form(ajVhcForm);
+        }
+
+        private void modificationToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Changer_Form(modVhcForm);
+        }
+
+        private void suppressionToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Changer_Form(supVhForm);
+        }
+
+        private void listeToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            Changer_Form(lisVogForm);
+        }
+
+        private void ajoutToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            Changer_Form(ajVogForm);
         }
     }
 }
