@@ -27,6 +27,8 @@ namespace gestionCompagnieVoyage
         voyage_list lisVogForm = new voyage_list();
         voyage_Ajout ajVogForm = new voyage_Ajout();
         Nombre_de_lignes NbrLignes = new Nombre_de_lignes();
+        Billets_Voyage billetVoyage = new Billets_Voyage();
+
         public Home()
         {
             InitializeComponent();
@@ -91,6 +93,11 @@ namespace gestionCompagnieVoyage
         private void nombreDeLignesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Changer_Form(NbrLignes);
+        }
+
+        private void billetsToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Changer_Form(billetVoyage);
         }
     }
 }

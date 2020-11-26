@@ -71,6 +71,12 @@
     <Compile Include="Ajout_chauffeur.Designer.cs">
       <DependentUpon>Ajout_chauffeur.cs</DependentUpon>
     </Compile>
+    <Compile Include="Billets_Voyage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Billets_Voyage.Designer.cs">
+      <DependentUpon>Billets_Voyage.cs</DependentUpon>
+    </Compile>
     <Compile Include="classConnexion.cs" />
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
@@ -135,6 +141,12 @@
     <Compile Include="Vehicule_suppression.Designer.cs">
       <DependentUpon>Vehicule_suppression.cs</DependentUpon>
     </Compile>
+    <Compile Include="Voyages_Vehicule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Voyages_Vehicule.Designer.cs">
+      <DependentUpon>Voyages_Vehicule.cs</DependentUpon>
+    </Compile>
     <Compile Include="voyage_Ajout.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -149,6 +161,9 @@
     </Compile>
     <EmbeddedResource Include="Ajout_chauffeur.resx">
       <DependentUpon>Ajout_chauffeur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Billets_Voyage.resx">
+      <DependentUpon>Billets_Voyage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
@@ -188,6 +203,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Vehicule_suppression.resx">
       <DependentUpon>Vehicule_suppression.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Voyages_Vehicule.resx">
+      <DependentUpon>Voyages_Vehicule.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="voyage_Ajout.resx">
       <DependentUpon>voyage_Ajout.cs</DependentUpon>

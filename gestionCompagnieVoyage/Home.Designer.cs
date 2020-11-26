@@ -246,6 +246,7 @@
             this.billetsToolStripMenuItem1.Name = "billetsToolStripMenuItem1";
             this.billetsToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.billetsToolStripMenuItem1.Text = "Billets/Voyage";
+            this.billetsToolStripMenuItem1.Click += new System.EventHandler(this.billetsToolStripMenuItem1_Click);
             // 
             // voyagesChauffeurToolStripMenuItem
             // 
