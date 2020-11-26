@@ -28,6 +28,7 @@ namespace gestionCompagnieVoyage
         voyage_Ajout ajVogForm = new voyage_Ajout();
         Nombre_de_lignes NbrLignes = new Nombre_de_lignes();
         Billets_Voyage billetVoyage = new Billets_Voyage();
+        Voyages_Vehicule voyageVehicule = new Voyages_Vehicule();
 
         public Home()
         {
@@ -98,6 +99,11 @@ namespace gestionCompagnieVoyage
         private void billetsToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             Changer_Form(billetVoyage);
+        }
+
+        private void voyagesChauffeurToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Changer_Form(voyageVehicule);
         }
     }
 }

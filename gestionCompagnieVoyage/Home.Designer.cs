@@ -253,6 +253,7 @@
             this.voyagesChauffeurToolStripMenuItem.Name = "voyagesChauffeurToolStripMenuItem";
             this.voyagesChauffeurToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.voyagesChauffeurToolStripMenuItem.Text = "Voyages/Véhicule";
+            this.voyagesChauffeurToolStripMenuItem.Click += new System.EventHandler(this.voyagesChauffeurToolStripMenuItem_Click);
             // 
             // voyagesChauffeurToolStripMenuItem1
             // 

@@ -54,6 +54,7 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 10;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label3
             // 
@@ -116,6 +117,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Voyages_Vehicule";
             this.Text = "Voyages_Vehicule";
+            this.Load += new System.EventHandler(this.Voyages_Vehicule_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
