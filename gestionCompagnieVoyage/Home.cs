@@ -26,6 +26,7 @@ namespace gestionCompagnieVoyage
         Vehicule_suppression supVhForm = new Vehicule_suppression();
         voyage_list lisVogForm = new voyage_list();
         voyage_Ajout ajVogForm = new voyage_Ajout();
+        Nombre_de_lignes NbrLignes = new Nombre_de_lignes();
         public Home()
         {
             InitializeComponent();
@@ -85,6 +86,11 @@ namespace gestionCompagnieVoyage
         private void ajoutToolStripMenuItem2_Click(object sender, EventArgs e)
         {
             Changer_Form(ajVogForm);
+        }
+
+        private void nombreDeLignesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Changer_Form(NbrLignes);
         }
     }
 }

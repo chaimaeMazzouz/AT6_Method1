@@ -28,3 +28,4 @@ C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug
 C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Vehicule_suppression.resources
 C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.voyage_list.resources
 C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.voyage_Ajout.resources
+C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Nombre_de_lignes.resources
