@@ -14,22 +14,6 @@ namespace gestionCompagnieVoyage
 {
     public partial class Home : Form
     {
-
-
-        Liste_CH lsForm = new Liste_CH();
-        Ajout_chauffeur ajForm = new Ajout_chauffeur();
-        Suppression_Chauffeur spCHForm = new Suppression_Chauffeur();
-        Modification_chauffeur mdCHForm = new Modification_chauffeur();
-        Vehicules_liste lsVcForm = new Vehicules_liste();
-        Vehicule_Ajout ajVhcForm = new Vehicule_Ajout();
-        Vehicule_modification modVhcForm = new Vehicule_modification();
-        Vehicule_suppression supVhForm = new Vehicule_suppression();
-        voyage_list lisVogForm = new voyage_list();
-        voyage_Ajout ajVogForm = new voyage_Ajout();
-        Nombre_de_lignes NbrLignes = new Nombre_de_lignes();
-        Billets_Voyage billetVoyage = new Billets_Voyage();
-        Voyages_Vehicule voyageVehicule = new Voyages_Vehicule();
-
         public Home()
         {
             InitializeComponent();
@@ -43,67 +27,107 @@ namespace gestionCompagnieVoyage
         }
         private void listeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Changer_Form(lsForm);
+            Changer_Form(new Liste_chauffeur());
         }
 
         private void ajoutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Changer_Form(ajForm);
+            Changer_Form(new Ajout_chauffeur());
         }
 
         private void suppressionToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Changer_Form(spCHForm);
+            Changer_Form(new Suppression_Chauffeur());
         }
 
         private void modificationToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Changer_Form(mdCHForm);
+            Changer_Form(new Modification_chauffeur());
         }
 
         private void listeToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            Changer_Form(lsVcForm);
+            Changer_Form(new Vehicules_liste());
         }
 
         private void ajoutToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            Changer_Form(ajVhcForm);
+            Changer_Form(new Vehicule_Ajout());
         }
 
         private void modificationToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            Changer_Form(modVhcForm);
+            Changer_Form(new Vehicule_modification());
         }
 
         private void suppressionToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            Changer_Form(supVhForm);
+            Changer_Form(new Vehicule_suppression());
         }
 
         private void listeToolStripMenuItem2_Click(object sender, EventArgs e)
         {
-            Changer_Form(lisVogForm);
+            Changer_Form(new voyage_list());
         }
 
         private void ajoutToolStripMenuItem2_Click(object sender, EventArgs e)
         {
-            Changer_Form(ajVogForm);
+            Changer_Form(new voyage_Ajout());
         }
 
         private void nombreDeLignesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Changer_Form(NbrLignes);
+            Changer_Form(new Nombre_de_lignes());
         }
 
         private void billetsToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            Changer_Form(billetVoyage);
+            Changer_Form(new Billets_Voyage());
         }
 
         private void voyagesChauffeurToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Changer_Form(voyageVehicule);
+            Changer_Form(new Voyages_Vehicule());
+        }
+
+        private void suppressionToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            Changer_Form(new voyage_suppression());
+        }
+
+        private void modificationToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            Changer_Form(new voyage_modification());
+        }
+
+        private void listeToolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            Changer_Form(new billet_list());
+        }
+
+        private void ajoutToolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            Changer_Form(new billet_Ajout());
+        }
+
+        private void suppressionToolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            Changer_Form(new billet_suppression());
+        }
+
+        private void modificationToolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            Changer_Form(new billet_Modification());
+        }
+
+        private void voyagesChauffeurToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Changer_Form(new Voyages_Chauffeur());
+        }
+
+        private void recetteVoyageToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Changer_Form(new Recette_Voyage());
         }
     }
 }

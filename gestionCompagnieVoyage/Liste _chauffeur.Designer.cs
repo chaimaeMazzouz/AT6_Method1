@@ -1,6 +1,6 @@
 ﻿namespace gestionCompagnieVoyage
 {
-    partial class Liste_CH
+    partial class Liste_chauffeur
     {
         /// <summary>
         /// Required designer variable.
@@ -30,13 +30,13 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.btnAfficher_CH = new System.Windows.Forms.Button();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnAfficher_CH = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -44,6 +44,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Red;
             this.label1.Location = new System.Drawing.Point(251, 17);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(235, 24);
@@ -64,17 +65,6 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(644, 213);
             this.dataGridView1.TabIndex = 1;
-            // 
-            // btnAfficher_CH
-            // 
-            this.btnAfficher_CH.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAfficher_CH.Location = new System.Drawing.Point(334, 278);
-            this.btnAfficher_CH.Name = "btnAfficher_CH";
-            this.btnAfficher_CH.Size = new System.Drawing.Size(98, 35);
-            this.btnAfficher_CH.TabIndex = 2;
-            this.btnAfficher_CH.Text = "Afficher";
-            this.btnAfficher_CH.UseVisualStyleBackColor = true;
-            this.btnAfficher_CH.Click += new System.EventHandler(this.btnAfficher_CH_Click);
             // 
             // Column1
             // 
@@ -106,15 +96,26 @@
             this.Column6.HeaderText = "Salaire";
             this.Column6.Name = "Column6";
             // 
-            // Liste_CH
+            // btnAfficher_CH
+            // 
+            this.btnAfficher_CH.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAfficher_CH.Location = new System.Drawing.Point(334, 278);
+            this.btnAfficher_CH.Name = "btnAfficher_CH";
+            this.btnAfficher_CH.Size = new System.Drawing.Size(98, 35);
+            this.btnAfficher_CH.TabIndex = 2;
+            this.btnAfficher_CH.Text = "Afficher";
+            this.btnAfficher_CH.UseVisualStyleBackColor = true;
+            this.btnAfficher_CH.Click += new System.EventHandler(this.btnAfficher_CH_Click);
+            // 
+            // Liste_chauffeur
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(736, 347);
+            this.ClientSize = new System.Drawing.Size(701, 347);
             this.Controls.Add(this.btnAfficher_CH);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
-            this.Name = "Liste_CH";
+            this.Name = "Liste_chauffeur";
             this.Text = "Liste_CH";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

@@ -28,116 +28,119 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnAjouter = new System.Windows.Forms.Button();
-            this.textTypeVhc = new System.Windows.Forms.TextBox();
-            this.textMarque = new System.Windows.Forms.TextBox();
-            this.textImmatricule = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.idChauffeurLabel = new System.Windows.Forms.Label();
+            this.Ajouter = new System.Windows.Forms.Button();
+            this.dateMiseService = new System.Windows.Forms.DateTimePicker();
+            this.type = new System.Windows.Forms.TextBox();
+            this.marque = new System.Windows.Forms.TextBox();
+            this.matricule = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
-            // 
-            // btnAjouter
-            // 
-            this.btnAjouter.Location = new System.Drawing.Point(577, 263);
-            this.btnAjouter.Name = "btnAjouter";
-            this.btnAjouter.Size = new System.Drawing.Size(75, 23);
-            this.btnAjouter.TabIndex = 22;
-            this.btnAjouter.Text = "Ajouter";
-            this.btnAjouter.UseVisualStyleBackColor = true;
-            this.btnAjouter.Click += new System.EventHandler(this.btnAjouter_Click);
-            // 
-            // textTypeVhc
-            // 
-            this.textTypeVhc.Location = new System.Drawing.Point(301, 283);
-            this.textTypeVhc.Name = "textTypeVhc";
-            this.textTypeVhc.Size = new System.Drawing.Size(194, 20);
-            this.textTypeVhc.TabIndex = 20;
-            // 
-            // textMarque
-            // 
-            this.textMarque.Location = new System.Drawing.Point(301, 236);
-            this.textMarque.Name = "textMarque";
-            this.textMarque.Size = new System.Drawing.Size(194, 20);
-            this.textMarque.TabIndex = 19;
-            // 
-            // textImmatricule
-            // 
-            this.textImmatricule.Location = new System.Drawing.Point(301, 188);
-            this.textImmatricule.Name = "textImmatricule";
-            this.textImmatricule.Size = new System.Drawing.Size(194, 20);
-            this.textImmatricule.TabIndex = 18;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(148, 325);
+            this.label5.Location = new System.Drawing.Point(167, 309);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(94, 13);
-            this.label5.TabIndex = 17;
-            this.label5.Text = "Date Mise Service";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(148, 286);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(81, 13);
-            this.label4.TabIndex = 16;
-            this.label4.Text = "Type Vehicule :";
+            this.label5.Size = new System.Drawing.Size(89, 13);
+            this.label5.TabIndex = 48;
+            this.label5.Text = "date mise service";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(148, 239);
+            this.label3.Location = new System.Drawing.Point(167, 271);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(49, 13);
-            this.label3.TabIndex = 15;
-            this.label3.Text = "Marque :";
+            this.label3.Size = new System.Drawing.Size(27, 13);
+            this.label3.TabIndex = 47;
+            this.label3.Text = "type";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(148, 191);
+            this.label2.Location = new System.Drawing.Point(167, 221);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(66, 13);
-            this.label2.TabIndex = 14;
-            this.label2.Text = "Immatricule :";
+            this.label2.Size = new System.Drawing.Size(42, 13);
+            this.label2.TabIndex = 46;
+            this.label2.Text = "marque";
+            // 
+            // idChauffeurLabel
+            // 
+            this.idChauffeurLabel.AutoSize = true;
+            this.idChauffeurLabel.Location = new System.Drawing.Point(167, 180);
+            this.idChauffeurLabel.Name = "idChauffeurLabel";
+            this.idChauffeurLabel.Size = new System.Drawing.Size(49, 13);
+            this.idChauffeurLabel.TabIndex = 45;
+            this.idChauffeurLabel.Text = "matricule";
+            // 
+            // Ajouter
+            // 
+            this.Ajouter.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.Ajouter.Location = new System.Drawing.Point(539, 180);
+            this.Ajouter.Name = "Ajouter";
+            this.Ajouter.Size = new System.Drawing.Size(94, 34);
+            this.Ajouter.TabIndex = 44;
+            this.Ajouter.Text = "Ajouter";
+            this.Ajouter.UseVisualStyleBackColor = true;
+            this.Ajouter.Click += new System.EventHandler(this.Ajouter_Click);
+            // 
+            // dateMiseService
+            // 
+            this.dateMiseService.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateMiseService.Location = new System.Drawing.Point(266, 309);
+            this.dateMiseService.Name = "dateMiseService";
+            this.dateMiseService.Size = new System.Drawing.Size(202, 20);
+            this.dateMiseService.TabIndex = 43;
+            // 
+            // type
+            // 
+            this.type.Location = new System.Drawing.Point(266, 264);
+            this.type.Name = "type";
+            this.type.Size = new System.Drawing.Size(202, 20);
+            this.type.TabIndex = 42;
+            // 
+            // marque
+            // 
+            this.marque.Location = new System.Drawing.Point(267, 221);
+            this.marque.Name = "marque";
+            this.marque.Size = new System.Drawing.Size(202, 20);
+            this.marque.TabIndex = 41;
+            // 
+            // matricule
+            // 
+            this.matricule.Location = new System.Drawing.Point(266, 180);
+            this.matricule.Name = "matricule";
+            this.matricule.Size = new System.Drawing.Size(202, 20);
+            this.matricule.TabIndex = 40;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(282, 120);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label1.ForeColor = System.Drawing.Color.Red;
+            this.label1.Location = new System.Drawing.Point(392, 122);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(75, 13);
-            this.label1.TabIndex = 13;
-            this.label1.Text = "Ajout Véhicule";
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(301, 325);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 23;
+            this.label1.Size = new System.Drawing.Size(147, 24);
+            this.label1.TabIndex = 39;
+            this.label1.Text = "Ajout Vehicule";
             // 
             // Vehicule_Ajout
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.btnAjouter);
-            this.Controls.Add(this.textTypeVhc);
-            this.Controls.Add(this.textMarque);
-            this.Controls.Add(this.textImmatricule);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
+            this.Controls.Add(this.idChauffeurLabel);
+            this.Controls.Add(this.Ajouter);
+            this.Controls.Add(this.dateMiseService);
+            this.Controls.Add(this.type);
+            this.Controls.Add(this.marque);
+            this.Controls.Add(this.matricule);
             this.Controls.Add(this.label1);
             this.Name = "Vehicule_Ajout";
             this.Text = "Vehicule_Ajout";
@@ -148,15 +151,15 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnAjouter;
-        private System.Windows.Forms.TextBox textTypeVhc;
-        private System.Windows.Forms.TextBox textMarque;
-        private System.Windows.Forms.TextBox textImmatricule;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label idChauffeurLabel;
+        private System.Windows.Forms.Button Ajouter;
+        private System.Windows.Forms.DateTimePicker dateMiseService;
+        private System.Windows.Forms.TextBox type;
+        private System.Windows.Forms.TextBox marque;
+        private System.Windows.Forms.TextBox matricule;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }

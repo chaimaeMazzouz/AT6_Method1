@@ -33,9 +33,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label1 = new System.Windows.Forms.Label();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -85,15 +85,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(246, 150);
             this.dataGridView1.TabIndex = 7;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(152, 124);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(168, 13);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Nombre de Voyages par Véhicule ";
-            // 
             // Column1
             // 
             this.Column1.HeaderText = "Imm_Véhicule";
@@ -103,6 +94,17 @@
             // 
             this.Column2.HeaderText = "Nombre de voyages";
             this.Column2.Name = "Column2";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Red;
+            this.label1.Location = new System.Drawing.Point(152, 124);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(333, 24);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Nombre de Voyages par Véhicule ";
             // 
             // Voyages_Vehicule
             // 

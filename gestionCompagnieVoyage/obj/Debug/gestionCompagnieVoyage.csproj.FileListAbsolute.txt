@@ -10,7 +10,6 @@ C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\bin\Debug
 C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\bin\Debug\System.Security.Permissions.xml
 C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\bin\Debug\System.Security.Principal.Windows.xml
 C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.csprojAssemblyReference.cache
-C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Liste_CH.resources
 C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Properties.Resources.resources
 C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.csproj.GenerateResource.cache
 C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.csproj.CoreCompileInputs.cache
@@ -22,8 +21,6 @@ C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug
 C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Modification_chauffeur.resources
 C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Home.resources
 C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Vehicules_liste.resources
-C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Vehicules_Ajout.resources
-C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Vehicule_Ajout.resources
 C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Vehicule_modification.resources
 C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Vehicule_suppression.resources
 C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.voyage_list.resources
@@ -31,3 +28,13 @@ C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug
 C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Nombre_de_lignes.resources
 C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Billets_Voyage.resources
 C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Voyages_Vehicule.resources
+C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Liste_chauffeur.resources
+C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Vehicule_Ajout.resources
+C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.voyage_suppression.resources
+C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.voyage_modification.resources
+C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.billet_list.resources
+C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.billet_Ajout.resources
+C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.billet_suppression.resources
+C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.billet_Modification.resources
+C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Voyages_Chauffeur.resources
+C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Recette_Voyage.resources

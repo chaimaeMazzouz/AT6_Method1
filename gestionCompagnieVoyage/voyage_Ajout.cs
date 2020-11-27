@@ -17,32 +17,7 @@ namespace gestionCompagnieVoyage
         classConnexion g1 = new classConnexion();
         SqlCommand Voyage_cmd = new SqlCommand();
         SqlDataReader Voyage_drd;
-        void remplirIdVoyage()
-        {
-            comboID_Voyage.Items.Clear();
-            Voyage_cmd = new SqlCommand("", g1.voyage_connexion);
-            Voyage_cmd.CommandText = "select ID_Voyage from voyage ";
-            try
-            {
-                g1.voyage_connexion.Open();
-                Voyage_drd = Voyage_cmd.ExecuteReader();
-                while (Voyage_drd.Read())
-                {
-                    comboID_Voyage.Items.Add(Voyage_drd.GetString(0));
-                }
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-            finally
-            {
-                Voyage_drd.Close();
-                g1.voyage_connexion.Close();
-            }
-          
-        }
+       
         void remplirID_chauffeur() 
         {
             comboID_chauffeur.Items.Clear();
@@ -100,7 +75,6 @@ namespace gestionCompagnieVoyage
 
         private void voyage_Ajout_Load(object sender, EventArgs e)
         {
-            remplirIdVoyage();
             remplirID_chauffeur();
             remplirImmatricule();
         }
@@ -132,7 +106,7 @@ namespace gestionCompagnieVoyage
                     voyage_cmd.Parameters[5].Value = textPlace_libre.Text;
                     voyage_cmd.Parameters[6].Value = textTarif.Text;
 
-                    voyage_cmd.CommandText = "insert into voyage(Date_Voyage,Ville_Depart,Ville_Arrive,Duree,Nbre_Voyageurs,Place_libre,Tarif) values(@Date_Voyage,@Ville_Depart,@Ville_Arrive,@Duree,@Nbre_Voyageurs,@Place_libre,@Tarif)";
+                    voyage_cmd.CommandText = $"insert into voyage(Date_Voyage,Ville_Depart,Ville_Arrive,Duree,Nbre_Voyageurs,Place_libre,Tarif,ID_chauffeur,Immatricule) values(@Date_Voyage,@Ville_Depart,@Ville_Arrive,@Duree,@Nbre_Voyageurs,@Place_libre,@Tarif,'{comboID_chauffeur.Text}','{comboImmatricule.Text}')";
                     g1.voyage_connexion.Open();
                     voyage_cmd.ExecuteNonQuery();
                     MessageBox.Show("insertion effectuée");

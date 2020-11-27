@@ -36,5 +36,10 @@ namespace gestionCompagnieVoyage
 
             g1.voyage_connexion.Close();
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

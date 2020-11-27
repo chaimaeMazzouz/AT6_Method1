@@ -19,7 +19,7 @@ namespace gestionCompagnieVoyage
         }
         classConnexion g2 = new classConnexion();
         SqlCommand Vehicule_cmd = new SqlCommand();
-       /* SqlDataReader Vehicule_drd;*/
+       SqlDataReader Vehicule_drd;
 
         
 
@@ -31,23 +31,15 @@ namespace gestionCompagnieVoyage
             {
                 dGV_Vehicule.Rows.Clear();
                 g2.voyage_connexion.Open();
-                /* Vehicule_drd = Vehicule_cmd.ExecuteReader();
+                 Vehicule_drd = Vehicule_cmd.ExecuteReader();
                  while (Vehicule_drd.Read())
                  {
-                     dGV_Vehicule.Rows.Add(Vehicule_drd.GetString(0),
-                         Vehicule_drd.GetString(1), Vehicule_drd.GetString(2),
-                         Vehicule_drd.GetSqlDateTime(3)
-                 );
-                 }*/
-                using (SqlDataReader Vehicule_drd = Vehicule_cmd.ExecuteReader())
-                {
-                    while (Vehicule_drd.Read())
-                    {
-                        dGV_Vehicule.Rows.Add(Vehicule_drd.GetString(0),
-                          Vehicule_drd.GetString(1), Vehicule_drd.GetString(2),
-                          Vehicule_drd.GetSqlDateTime(3));
-                    }
-                }
+                dGV_Vehicule.Rows.Add(Vehicule_drd["Immatricule"],
+                          Vehicule_drd["Marque"], Vehicule_drd["Type_Vehicule"],
+                          Vehicule_drd["Dt_Mise_Service"]);
+                 
+                 }
+              
 
 
             }

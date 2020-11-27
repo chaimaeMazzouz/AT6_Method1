@@ -19,9 +19,9 @@ namespace gestionCompagnieVoyage
             InitializeComponent();
         }
 
-        private void btnAjouter_Click(object sender, EventArgs e)
+        private void Ajouter_Click(object sender, EventArgs e)
         {
-            if (textImmatricule.Text == "" || textMarque.Text == "" || textTypeVhc.Text == "" )
+            if (matricule.Text == "" || marque.Text == "" || type.Text == "")
             {
                 MessageBox.Show("Remplir les champs");
             }
@@ -29,20 +29,20 @@ namespace gestionCompagnieVoyage
             {
                 try
                 {
-                    SqlCommand chauffeur_cmd = new SqlCommand("", g1.voyage_connexion);
-                    chauffeur_cmd.Parameters.Add(new SqlParameter("@Immatricule", SqlDbType.VarChar, 12));
-                    chauffeur_cmd.Parameters.Add("@Marque", SqlDbType.VarChar, 15);
-                    chauffeur_cmd.Parameters.Add("@TypeVehicule", SqlDbType.VarChar, 8);
-                    chauffeur_cmd.Parameters.Add("@DateMiseService", SqlDbType.Date);
+                    SqlCommand vehicule_cmd = new SqlCommand("", g1.voyage_connexion);
+                    vehicule_cmd.Parameters.Add("@matricule", SqlDbType.VarChar, 12);
+                    vehicule_cmd.Parameters.Add("@marque", SqlDbType.VarChar, 15);
+                    vehicule_cmd.Parameters.Add("@type", SqlDbType.VarChar, 8);
+                    vehicule_cmd.Parameters.Add("@dateMiseService", SqlDbType.Date);
 
-                    chauffeur_cmd.Parameters[0].Value = textImmatricule.Text;
-                    chauffeur_cmd.Parameters[1].Value = textMarque.Text;
-                    chauffeur_cmd.Parameters[2].Value = textTypeVhc.Text;
-                    chauffeur_cmd.Parameters[3].Value = dateTimePicker1.Text;
+                    vehicule_cmd.Parameters[0].Value = matricule.Text;
+                    vehicule_cmd.Parameters[1].Value = marque.Text;
+                    vehicule_cmd.Parameters[2].Value = type.Text;
+                    vehicule_cmd.Parameters[3].Value = dateMiseService.Text;
 
-                    chauffeur_cmd.CommandText = "insert into Vehicule values(@Immatricule, @Marque, @TypeVehicule, @DateMiseService)";
+                    vehicule_cmd.CommandText = "insert into vehicule values(@matricule,@marque,@type,@dateMiseService)";
                     g1.voyage_connexion.Open();
-                    chauffeur_cmd.ExecuteNonQuery();
+                    vehicule_cmd.ExecuteNonQuery();
                     MessageBox.Show("insertion effectuée");
 
                 }

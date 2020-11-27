@@ -77,6 +77,30 @@
     <Compile Include="Billets_Voyage.Designer.cs">
       <DependentUpon>Billets_Voyage.cs</DependentUpon>
     </Compile>
+    <Compile Include="billet_Ajout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="billet_Ajout.Designer.cs">
+      <DependentUpon>billet_Ajout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="billet_list.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="billet_list.Designer.cs">
+      <DependentUpon>billet_list.cs</DependentUpon>
+    </Compile>
+    <Compile Include="billet_Modification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="billet_Modification.Designer.cs">
+      <DependentUpon>billet_Modification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="billet_suppression.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="billet_suppression.Designer.cs">
+      <DependentUpon>billet_suppression.cs</DependentUpon>
+    </Compile>
     <Compile Include="classConnexion.cs" />
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
@@ -104,18 +128,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="remplirComboVoyage.cs" />
+    <Compile Include="Recette_Voyage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recette_Voyage.Designer.cs">
+      <DependentUpon>Recette_Voyage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Suppression_Chauffeur.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Suppression_Chauffeur.Designer.cs">
       <DependentUpon>Suppression_Chauffeur.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Vehicules_Ajout.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Vehicules_Ajout.Designer.cs">
-      <DependentUpon>Vehicules_Ajout.cs</DependentUpon>
     </Compile>
     <Compile Include="Vehicules_liste.cs">
       <SubType>Form</SubType>
@@ -141,6 +164,12 @@
     <Compile Include="Vehicule_suppression.Designer.cs">
       <DependentUpon>Vehicule_suppression.cs</DependentUpon>
     </Compile>
+    <Compile Include="Voyages_Chauffeur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Voyages_Chauffeur.Designer.cs">
+      <DependentUpon>Voyages_Chauffeur.cs</DependentUpon>
+    </Compile>
     <Compile Include="Voyages_Vehicule.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -159,11 +188,35 @@
     <Compile Include="voyage_list.Designer.cs">
       <DependentUpon>voyage_list.cs</DependentUpon>
     </Compile>
+    <Compile Include="voyage_modification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="voyage_modification.Designer.cs">
+      <DependentUpon>voyage_modification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="voyage_suppression.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="voyage_suppression.Designer.cs">
+      <DependentUpon>voyage_suppression.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Ajout_chauffeur.resx">
       <DependentUpon>Ajout_chauffeur.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Billets_Voyage.resx">
       <DependentUpon>Billets_Voyage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="billet_Ajout.resx">
+      <DependentUpon>billet_Ajout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="billet_list.resx">
+      <DependentUpon>billet_list.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="billet_Modification.resx">
+      <DependentUpon>billet_Modification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="billet_suppression.resx">
+      <DependentUpon>billet_suppression.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
@@ -186,11 +239,11 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Recette_Voyage.resx">
+      <DependentUpon>Recette_Voyage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Suppression_Chauffeur.resx">
       <DependentUpon>Suppression_Chauffeur.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Vehicules_Ajout.resx">
-      <DependentUpon>Vehicules_Ajout.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Vehicules_liste.resx">
       <DependentUpon>Vehicules_liste.cs</DependentUpon>
@@ -204,6 +257,9 @@
     <EmbeddedResource Include="Vehicule_suppression.resx">
       <DependentUpon>Vehicule_suppression.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Voyages_Chauffeur.resx">
+      <DependentUpon>Voyages_Chauffeur.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Voyages_Vehicule.resx">
       <DependentUpon>Voyages_Vehicule.cs</DependentUpon>
     </EmbeddedResource>
@@ -212,6 +268,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="voyage_list.resx">
       <DependentUpon>voyage_list.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="voyage_modification.resx">
+      <DependentUpon>voyage_modification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="voyage_suppression.resx">
+      <DependentUpon>voyage_suppression.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

@@ -11,10 +11,10 @@ using System.Data.SqlClient;
 
 namespace gestionCompagnieVoyage
 {
-    public partial class Liste_CH : Form
+    public partial class Liste_chauffeur : Form
     {
       
-        public Liste_CH()
+        public Liste_chauffeur()
         {
             InitializeComponent();
         }
