@@ -64,11 +64,11 @@ namespace gestionCompagnieVoyage
                 while (chauffeur_drd.Read())
                 {
                     ID = chauffeur_drd[0].ToString();
-                    textBox2.Text = chauffeur_drd[1].ToString();
-                    textBox3.Text = chauffeur_drd[2].ToString();
-                    textBox4.Text = chauffeur_drd[3].ToString();
+                    textNom.Text = chauffeur_drd[1].ToString();
+                    textPrenom.Text = chauffeur_drd[2].ToString();
+                    textAdresse.Text = chauffeur_drd[3].ToString();
                     dateTimePicker1.Text = chauffeur_drd[4].ToString();
-                    textBox5.Text = chauffeur_drd[5].ToString();
+                    textSalaire.Text = chauffeur_drd[5].ToString();
                 }
 
             }
@@ -96,15 +96,15 @@ namespace gestionCompagnieVoyage
                 chauffeur_cmd.Parameters.Add("@Salaire", SqlDbType.Money);
 
                 chauffeur_cmd.Parameters[0].Value = ID;
-                chauffeur_cmd.Parameters[1].Value = textBox2.Text;
-                chauffeur_cmd.Parameters[2].Value = textBox3.Text;
-                chauffeur_cmd.Parameters[3].Value = textBox4.Text;
+                chauffeur_cmd.Parameters[1].Value = textNom.Text;
+                chauffeur_cmd.Parameters[2].Value = textPrenom.Text;
+                chauffeur_cmd.Parameters[3].Value = textAdresse.Text;
                 chauffeur_cmd.Parameters[4].Value = dateTimePicker1.Text;
-                chauffeur_cmd.Parameters[5].Value = textBox5.Text;
+                chauffeur_cmd.Parameters[5].Value = textSalaire.Text;
 
                 chauffeur_cmd.CommandText = "update chauffeur set Nom = @Nm,Prenom = @Prm,Adresse= @Adresse,Date_Recrutement= @Dt_rec,Salaire= @Salaire where ID_chauffeur=@IDCH";
               
-                string rep = MessageBox.Show($"voulez vous modifier le chauffeur {textBox2.Text} {textBox3.Text} ",
+                string rep = MessageBox.Show($"voulez vous modifier le chauffeur {textNom.Text} {textPrenom.Text} ",
                "Modification chauffeur", MessageBoxButtons.YesNo).ToString();
                 if (rep == "Yes")
                 {

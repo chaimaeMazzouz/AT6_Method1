@@ -38,3 +38,43 @@ C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug
 C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.billet_Modification.resources
 C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Voyages_Chauffeur.resources
 C:\Users\MZ\source\repos\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Recette_Voyage.resources
+C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT6 PDF M09\Mazzouz_TDI203A_AT6\gestionCompagnieVoyage\gestionCompagnieVoyage\bin\Debug\gestionCompagnieVoyage.exe.config
+C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT6 PDF M09\Mazzouz_TDI203A_AT6\gestionCompagnieVoyage\gestionCompagnieVoyage\bin\Debug\gestionCompagnieVoyage.exe
+C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT6 PDF M09\Mazzouz_TDI203A_AT6\gestionCompagnieVoyage\gestionCompagnieVoyage\bin\Debug\gestionCompagnieVoyage.pdb
+C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT6 PDF M09\Mazzouz_TDI203A_AT6\gestionCompagnieVoyage\gestionCompagnieVoyage\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT6 PDF M09\Mazzouz_TDI203A_AT6\gestionCompagnieVoyage\gestionCompagnieVoyage\bin\Debug\System.Security.AccessControl.dll
+C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT6 PDF M09\Mazzouz_TDI203A_AT6\gestionCompagnieVoyage\gestionCompagnieVoyage\bin\Debug\System.Security.Permissions.dll
+C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT6 PDF M09\Mazzouz_TDI203A_AT6\gestionCompagnieVoyage\gestionCompagnieVoyage\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT6 PDF M09\Mazzouz_TDI203A_AT6\gestionCompagnieVoyage\gestionCompagnieVoyage\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT6 PDF M09\Mazzouz_TDI203A_AT6\gestionCompagnieVoyage\gestionCompagnieVoyage\bin\Debug\System.Security.AccessControl.xml
+C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT6 PDF M09\Mazzouz_TDI203A_AT6\gestionCompagnieVoyage\gestionCompagnieVoyage\bin\Debug\System.Security.Permissions.xml
+C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT6 PDF M09\Mazzouz_TDI203A_AT6\gestionCompagnieVoyage\gestionCompagnieVoyage\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT6 PDF M09\Mazzouz_TDI203A_AT6\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.csprojAssemblyReference.cache
+C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT6 PDF M09\Mazzouz_TDI203A_AT6\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Ajout_chauffeur.resources
+C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT6 PDF M09\Mazzouz_TDI203A_AT6\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Billets_Voyage.resources
+C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT6 PDF M09\Mazzouz_TDI203A_AT6\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.billet_Ajout.resources
+C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT6 PDF M09\Mazzouz_TDI203A_AT6\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.billet_list.resources
+C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT6 PDF M09\Mazzouz_TDI203A_AT6\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.billet_Modification.resources
+C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT6 PDF M09\Mazzouz_TDI203A_AT6\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.billet_suppression.resources
+C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT6 PDF M09\Mazzouz_TDI203A_AT6\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Home.resources
+C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT6 PDF M09\Mazzouz_TDI203A_AT6\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Liste_chauffeur.resources
+C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT6 PDF M09\Mazzouz_TDI203A_AT6\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Modification_chauffeur.resources
+C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT6 PDF M09\Mazzouz_TDI203A_AT6\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Nombre_de_lignes.resources
+C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT6 PDF M09\Mazzouz_TDI203A_AT6\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Properties.Resources.resources
+C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT6 PDF M09\Mazzouz_TDI203A_AT6\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Recette_Voyage.resources
+C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT6 PDF M09\Mazzouz_TDI203A_AT6\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Suppression_Chauffeur.resources
+C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT6 PDF M09\Mazzouz_TDI203A_AT6\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Vehicules_liste.resources
+C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT6 PDF M09\Mazzouz_TDI203A_AT6\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Vehicule_Ajout.resources
+C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT6 PDF M09\Mazzouz_TDI203A_AT6\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Vehicule_modification.resources
+C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT6 PDF M09\Mazzouz_TDI203A_AT6\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Vehicule_suppression.resources
+C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT6 PDF M09\Mazzouz_TDI203A_AT6\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Voyages_Chauffeur.resources
+C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT6 PDF M09\Mazzouz_TDI203A_AT6\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.Voyages_Vehicule.resources
+C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT6 PDF M09\Mazzouz_TDI203A_AT6\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.voyage_Ajout.resources
+C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT6 PDF M09\Mazzouz_TDI203A_AT6\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.voyage_list.resources
+C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT6 PDF M09\Mazzouz_TDI203A_AT6\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.voyage_modification.resources
+C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT6 PDF M09\Mazzouz_TDI203A_AT6\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.voyage_suppression.resources
+C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT6 PDF M09\Mazzouz_TDI203A_AT6\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.csproj.GenerateResource.cache
+C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT6 PDF M09\Mazzouz_TDI203A_AT6\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.csproj.CoreCompileInputs.cache
+C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT6 PDF M09\Mazzouz_TDI203A_AT6\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.csproj.CopyComplete
+C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT6 PDF M09\Mazzouz_TDI203A_AT6\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.exe
+C:\Users\MZ\Desktop\my stuff\Desktop-Client-Serveur\AT6 PDF M09\Mazzouz_TDI203A_AT6\gestionCompagnieVoyage\gestionCompagnieVoyage\obj\Debug\gestionCompagnieVoyage.pdb

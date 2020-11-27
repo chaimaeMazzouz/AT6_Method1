@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.btnSuppression = new System.Windows.Forms.Button();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textDate = new System.Windows.Forms.TextBox();
+            this.textPrenom = new System.Windows.Forms.TextBox();
+            this.textAdresse = new System.Windows.Forms.TextBox();
+            this.textNom = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -41,7 +41,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textSalaire = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnSuppression
@@ -54,33 +54,33 @@
             this.btnSuppression.UseVisualStyleBackColor = true;
             this.btnSuppression.Click += new System.EventHandler(this.btnSuppression_Click);
             // 
-            // textBox5
+            // textDate
             // 
-            this.textBox5.Location = new System.Drawing.Point(301, 323);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(194, 20);
-            this.textBox5.TabIndex = 24;
+            this.textDate.Location = new System.Drawing.Point(301, 323);
+            this.textDate.Name = "textDate";
+            this.textDate.Size = new System.Drawing.Size(194, 20);
+            this.textDate.TabIndex = 24;
             // 
-            // textBox4
+            // textPrenom
             // 
-            this.textBox4.Location = new System.Drawing.Point(301, 248);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(194, 20);
-            this.textBox4.TabIndex = 22;
+            this.textPrenom.Location = new System.Drawing.Point(301, 248);
+            this.textPrenom.Name = "textPrenom";
+            this.textPrenom.Size = new System.Drawing.Size(194, 20);
+            this.textPrenom.TabIndex = 22;
             // 
-            // textBox3
+            // textAdresse
             // 
-            this.textBox3.Location = new System.Drawing.Point(301, 287);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(194, 20);
-            this.textBox3.TabIndex = 23;
+            this.textAdresse.Location = new System.Drawing.Point(301, 287);
+            this.textAdresse.Name = "textAdresse";
+            this.textAdresse.Size = new System.Drawing.Size(194, 20);
+            this.textAdresse.TabIndex = 23;
             // 
-            // textBox2
+            // textNom
             // 
-            this.textBox2.Location = new System.Drawing.Point(301, 198);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(194, 20);
-            this.textBox2.TabIndex = 21;
+            this.textNom.Location = new System.Drawing.Point(301, 198);
+            this.textNom.Name = "textNom";
+            this.textNom.Size = new System.Drawing.Size(194, 20);
+            this.textNom.TabIndex = 21;
             // 
             // label7
             // 
@@ -162,25 +162,25 @@
             this.comboBox1.TabIndex = 27;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // textBox6
+            // textSalaire
             // 
-            this.textBox6.Location = new System.Drawing.Point(301, 365);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(194, 20);
-            this.textBox6.TabIndex = 28;
+            this.textSalaire.Location = new System.Drawing.Point(301, 365);
+            this.textSalaire.Name = "textSalaire";
+            this.textSalaire.Size = new System.Drawing.Size(194, 20);
+            this.textSalaire.TabIndex = 28;
             // 
             // Suppression_Chauffeur
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.textSalaire);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.btnSuppression);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textDate);
+            this.Controls.Add(this.textPrenom);
+            this.Controls.Add(this.textAdresse);
+            this.Controls.Add(this.textNom);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -199,10 +199,10 @@
         #endregion
 
         private System.Windows.Forms.Button btnSuppression;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textDate;
+        private System.Windows.Forms.TextBox textPrenom;
+        private System.Windows.Forms.TextBox textAdresse;
+        private System.Windows.Forms.TextBox textNom;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
@@ -211,6 +211,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textSalaire;
     }
 }

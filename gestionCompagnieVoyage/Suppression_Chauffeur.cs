@@ -50,7 +50,7 @@ namespace gestionCompagnieVoyage
         {
             chauffeur_cmd = new SqlCommand("", g1.voyage_connexion);
             chauffeur_cmd.CommandText = "delete chauffeur where ID_chauffeur = '"+comboBox1.Text+"'";
-            string rep = MessageBox.Show($"voulez vous supprimer le chauffeur {textBox2.Text} {textBox3.Text} ",
+            string rep = MessageBox.Show($"voulez vous supprimer le chauffeur {textNom.Text} {textPrenom.Text} ",
                 "Supprission chauffeur", MessageBoxButtons.YesNo).ToString();
             if (rep == "Yes")
             {
@@ -84,11 +84,11 @@ namespace gestionCompagnieVoyage
                 chauffeur_drd = chauffeur_cmd.ExecuteReader();
                 while (chauffeur_drd.Read())
                 {
-                    textBox2.Text = chauffeur_drd[1].ToString();
-                    textBox3.Text = chauffeur_drd[2].ToString();
-                    textBox4.Text = chauffeur_drd[3].ToString();
-                    textBox5.Text = chauffeur_drd[4].ToString();
-                    textBox6.Text = chauffeur_drd[5].ToString();
+                    textNom.Text = chauffeur_drd[1].ToString();
+                    textAdresse.Text = chauffeur_drd[3].ToString();
+                    textPrenom.Text = chauffeur_drd[2].ToString();
+                    textDate.Text = chauffeur_drd[4].ToString();
+                    textSalaire.Text = chauffeur_drd[5].ToString();
                 }
 
             }

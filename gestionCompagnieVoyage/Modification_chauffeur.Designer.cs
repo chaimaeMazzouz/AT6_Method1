@@ -30,10 +30,10 @@
         {
             this.btnModifier = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textSalaire = new System.Windows.Forms.TextBox();
+            this.textAdresse = new System.Windows.Forms.TextBox();
+            this.textPrenom = new System.Windows.Forms.TextBox();
+            this.textNom = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -62,33 +62,33 @@
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker1.TabIndex = 25;
             // 
-            // textBox5
+            // textSalaire
             // 
-            this.textBox5.Location = new System.Drawing.Point(301, 315);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(194, 20);
-            this.textBox5.TabIndex = 24;
+            this.textSalaire.Location = new System.Drawing.Point(301, 315);
+            this.textSalaire.Name = "textSalaire";
+            this.textSalaire.Size = new System.Drawing.Size(194, 20);
+            this.textSalaire.TabIndex = 24;
             // 
-            // textBox4
+            // textAdresse
             // 
-            this.textBox4.Location = new System.Drawing.Point(301, 238);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(194, 20);
-            this.textBox4.TabIndex = 22;
+            this.textAdresse.Location = new System.Drawing.Point(301, 238);
+            this.textAdresse.Name = "textAdresse";
+            this.textAdresse.Size = new System.Drawing.Size(194, 20);
+            this.textAdresse.TabIndex = 22;
             // 
-            // textBox3
+            // textPrenom
             // 
-            this.textBox3.Location = new System.Drawing.Point(301, 199);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(194, 20);
-            this.textBox3.TabIndex = 23;
+            this.textPrenom.Location = new System.Drawing.Point(301, 199);
+            this.textPrenom.Name = "textPrenom";
+            this.textPrenom.Size = new System.Drawing.Size(194, 20);
+            this.textPrenom.TabIndex = 23;
             // 
-            // textBox2
+            // textNom
             // 
-            this.textBox2.Location = new System.Drawing.Point(301, 152);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(194, 20);
-            this.textBox2.TabIndex = 21;
+            this.textNom.Location = new System.Drawing.Point(301, 152);
+            this.textNom.Name = "textNom";
+            this.textNom.Size = new System.Drawing.Size(194, 20);
+            this.textNom.TabIndex = 21;
             // 
             // label7
             // 
@@ -178,10 +178,10 @@
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.btnModifier);
             this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textSalaire);
+            this.Controls.Add(this.textAdresse);
+            this.Controls.Add(this.textPrenom);
+            this.Controls.Add(this.textNom);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -201,10 +201,10 @@
 
         private System.Windows.Forms.Button btnModifier;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textSalaire;
+        private System.Windows.Forms.TextBox textAdresse;
+        private System.Windows.Forms.TextBox textPrenom;
+        private System.Windows.Forms.TextBox textNom;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;

@@ -21,7 +21,7 @@ namespace gestionCompagnieVoyage
 
         private void btnAjouter_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text =="" || textBox2.Text=="" || textBox3.Text == "" || textBox4.Text== "" || textBox5.Text== "")
+            if (textID.Text =="" || textNom.Text=="" || textPrenom.Text == "" || textAdresse.Text== "" || textSalaire.Text== "")
             {
                 MessageBox.Show("Remplir les champs");
             }
@@ -37,12 +37,12 @@ namespace gestionCompagnieVoyage
                     chauffeur_cmd.Parameters.Add("@Dt_rec", SqlDbType.Date);
                     chauffeur_cmd.Parameters.Add("@Salaire", SqlDbType.Money);
 
-                    chauffeur_cmd.Parameters[0].Value = textBox1.Text;
-                    chauffeur_cmd.Parameters[1].Value = textBox2.Text;
-                    chauffeur_cmd.Parameters[2].Value = textBox3.Text;
-                    chauffeur_cmd.Parameters[3].Value = textBox4.Text;
+                    chauffeur_cmd.Parameters[0].Value = textID.Text;
+                    chauffeur_cmd.Parameters[1].Value = textNom.Text;
+                    chauffeur_cmd.Parameters[2].Value = textPrenom.Text;
+                    chauffeur_cmd.Parameters[3].Value = textAdresse.Text;
                     chauffeur_cmd.Parameters[4].Value = dateTimePicker1.Text;
-                    chauffeur_cmd.Parameters[5].Value = textBox5.Text;
+                    chauffeur_cmd.Parameters[5].Value = textSalaire.Text;
 
                     chauffeur_cmd.CommandText = "insert into chauffeur values(@ID, @Nm, @Prm, @Adresse, @Dt_rec, @Salaire)";
                     g1.voyage_connexion.Open();
